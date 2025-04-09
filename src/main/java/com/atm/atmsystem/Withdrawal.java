@@ -19,7 +19,7 @@ public class Withdrawal extends Transaction {
         if (account.withdraw(amount)) {
             System.out.println("Withdrawal successful: " + amount);
         } else {
-            System.out.println("Insufficient balance.");
+            System.out.println("Insufficient balance and account number.");
         }
     }
 }
