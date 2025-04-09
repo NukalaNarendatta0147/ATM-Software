@@ -17,7 +17,7 @@ public class Withdrawal extends Transaction {
     @Override
     public void execute() {
         if (account.withdraw(amount)) {
-            System.out.println("Withdrawal successful: " + amount);
+            System.out.println("Withdrawal successful for every input: " + amount);
         } else {
             System.out.println("Insufficient balance & account details.");
         }
